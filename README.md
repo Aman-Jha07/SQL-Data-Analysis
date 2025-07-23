@@ -17,9 +17,13 @@ Here is the schema of the Music Store database used in this analysis:
 ## 📁 Project Structure
 
 SQL-Data-Analysis/
+
 │
+
 ├── Music_Store_Query.sql # All SQL queries grouped by difficulty
+
 ├── MusicDatabaseSchema.png # Schema image for quick reference
+
 └── README.md # Project documentation
 
 
@@ -63,8 +67,11 @@ All queries are stored in one file:
 ## 🙋‍♂️ Author
 
 **Aman Kumar Jha**  
+
 📇 [LinkedIn Profile](https://www.linkedin.com/in/amankumarjhame/)
+
 📇 [GitHub](https://github.com/Aman-Jha07)
+
 ---
 
 ## 💡 Tools Used
