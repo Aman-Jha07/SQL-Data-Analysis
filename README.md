@@ -48,11 +48,22 @@ To analyze a music store database and answer business-driven questions related t
 - What is the most popular genre per country?
 
 ---
+---
+## 📊 Sample Business Questions Answered
+
+- Who is the top-spending customer?
+- Which city brings in the most revenue?
+- What are the top 3 invoice values?
+- Who are the top rock music listeners?
+- What genres are most popular in each country?
+
+## 🧠 Key Learnings
+
+- Writing efficient SQL queries for real-world business use cases
+- Using aggregate functions, JOINs, GROUP BY, and subqueries
+- Interpreting customer and sales data to generate insights
 
 ## 🔗 Connect with Me
 
 - 💼 [LinkedIn – Aman Kumar Jha](https://www.linkedin.com/in/amankumarjhame/)
 - 📂 [GitHub Repository](https://github.com/Aman-Jha07/SQL-Data-Analysis)
-
----
-
