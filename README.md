@@ -1,87 +1,92 @@
-# 🎵 Music Store Data Analysis (SQL Project)
+# 🎵 Music Store Data Analysis with SQL
 
-This project involves analyzing a fictional music store database using SQL. The goal is to answer business questions related to sales, customers, artists, and music genres using real-world SQL techniques.
+Welcome to the Music Store Data Analysis project! This SQL-based project explores sales and customer behavior from a fictional digital music store database. The analysis is based on real-world business questions to help improve marketing, customer retention, and revenue strategies.
+
+## 🎯 Objective
+
+To analyze music store data using SQL by answering business-driven questions related to:
+- Customer purchases
+- Genre popularity
+- City/country-wise performance
+- Best customers and artists
+
+## 🗂️ Project Files
+
+| File | Description |
+|------|-------------|
+| [📄 Music Store Analysis-Questions.pdf](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Music%20Store%20Analysis-Questions.pdf) | Contains all business questions (Easy, Moderate, Advanced) |
+| [🖼️ MusicDatabaseSchema.png](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/MusicDatabaseSchema.png) | Database schema/ER Diagram |
+| [📜 Music_Store_Query.sql](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Music_Store_Query.sql) | SQL queries to answer all the questions |
+| [🗄️ Music_Store_database.sql](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Music_Store_database.sql) | SQL script to create and populate the database |
+| [🗂️ Raw-Music Store Analysis-SQL Project.zip](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Raw-Music%20Store%20Analysis-SQL%20Project.zip) | Complete raw project files |
+| [🗃️ music store data.zip](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/music%20store%20data.zip) | Additional data used for querying |
+
+## 🛠️ Tools Used
+
+- **Database:** SQLite
+- **Language:** SQL
+- **Platform:** DB Browser for SQLite / any SQL editor
+
+## 🗺️ Database Schema
+
+![Database Schema](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/MusicDatabaseSchema.png)
+
+The schema includes tables such as:
+- `Customer`
+- `Invoice`
+- `InvoiceLine`
+- `Track`
+- `Artist`
+- `Genre`
+- `Album`
+- `Employee`
+
+## ❓ Business Questions
+
+### 🔹 Easy Level
+- Who is the senior-most employee?
+- Which countries have the most invoices?
+- What are the top 3 invoice values?
+- Which city has the highest total invoice amount?
+- Who is the best customer?
+
+### 🔸 Moderate Level
+- List all Rock music listeners.
+- Top 10 artists with the most Rock tracks.
+- Tracks longer than the average length.
+
+### 🔻 Advanced Level
+- Amount spent by each customer on each artist.
+- Most popular music genre by country.
+- Top spending customer per country.
+
+## 💡 Sample Query
+
+```sql
+-- Find the best customer (highest total invoice)
+SELECT c.FirstName || ' ' || c.LastName AS Customer_Name,
+       SUM(i.Total) AS Total_Spent
+FROM Customer c
+JOIN Invoice i ON c.CustomerId = i.CustomerId
+GROUP BY c.CustomerId
+ORDER BY Total_Spent DESC
+LIMIT 1;
+
+📌 How to Run
+Clone this repo or download the database files.
+
+Open Music_Store_database.sql in DB Browser for SQLite.
+
+Load and execute the schema.
+
+Run queries from Music_Store_Query.sql to explore insights.
+
+🔗 Connect with Me
+💼 LinkedIn - Aman Kumar Jha
+
+📂 GitHub Repository
+
 
 ---
 
-## 🗺 Database Schema
-
-Here is the schema of the Music Store database used in this analysis:
-
-<p align="center">
-  <img src="https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/MusicDatabaseSchema.png?raw=true" alt="Music Store Schema">
-</p>
-
----
-
-## 📁 Project Structure
-
-SQL-Data-Analysis/
-
-│
-
-├── Music_Store_Query.sql # All SQL queries grouped by difficulty
-
-├── MusicDatabaseSchema.png # Schema image for quick reference
-
-└── README.md # Project documentation
-
-
----
-
-## 📜 SQL Queries
-
-All queries are stored in one file:  
-👉 [View SQL Queries](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Music_Store_Query.sql)
-
----
-
-## 🧠 Business Questions Answered
-
-### 🔹 Question Set 1 – Easy
-
-1. Who is the senior most employee based on job title?
-2. Which countries have the most invoices?
-3. What are the top 3 values of total invoice?
-4. Which city has the best customers based on total invoice amount?
-5. Who is the best customer based on total spending?
-
----
-
-### 🔸 Question Set 2 – Moderate
-
-1. Rock music listeners: email, first name, last name, and genre.
-2. Top 10 rock artists by number of tracks.
-3. Tracks that are longer than the average track length.
-
----
-
-### 🔺 Question Set 3 – Advanced
-
-1. Amount spent by each customer on different artists.
-2. Most popular genre by country (based on number of purchases).
-3. Top-spending customer in each country.
-
----
-
-## 🙋‍♂️ Author
-
-**Aman Kumar Jha**  
-
-📇 [LinkedIn Profile](https://www.linkedin.com/in/amankumarjhame/)
-
-📇 [GitHub](https://github.com/Aman-Jha07)
-
----
-
-## 💡 Tools Used
-
-- PostgreSQL / MySQL
-- SQL Joins, Group By, Subqueries, CTEs
-- Git & GitHub for version control
-
----
-
-## 📌 License
-
-This project is for educational purposes only.
+Let me know if you'd like to add a **badge**, a **table of contents**, or a **preview GIF/screenshot** to show results!
