@@ -34,6 +34,12 @@ This project explores a fictional music store database using SQL. It answers bus
 3. Top-spending customer in each country.
 
 ---
+## 🗺 Database Schema
+
+Here is the database schema used for this analysis:
+
+![Music Store Schema](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/950c23bb20acde84a76015185aa17b1d39f6006f/MusicDatabaseSchema.png?raw=true)
+
 
 ## 🛠️ Tech Stack
 
