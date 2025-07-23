@@ -1,68 +1,99 @@
-
 # 🎵 Music Store Data Analysis (SQL Project)
 
-This project explores a fictional music store database using SQL. It answers business questions using data related to customers, invoices, artists, tracks, and genres.
+This project involves analyzing a fictional music store database using SQL. The goal is to answer business questions related to sales, customers, artists, and music genres using real-world SQL techniques.
 
 ---
 
-## 📂 Project Structure
+## 🗺 Database Schema
 
-- `easy-questions.sql` - Basic SQL queries for introductory-level analysis.
-- `moderate-questions.sql` - Intermediate queries involving joins, filters, and sorting.
-- `advanced-questions.sql` - Advanced queries involving aggregations, subqueries, and ranking logic.
-- `assets/music_store_schema.png` - (Optional) Database schema image for reference.
+Here is the schema of the Music Store database used in this analysis:
+
+<p align="center">
+  <img src="https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/MusicDatabaseSchema.png?raw=true" alt="Music Store Schema">
+</p>
 
 ---
 
-## 🧠 Questions Covered
+## 📁 Project Structure
 
-### 🔹 Easy Level
+
+---
+
+## 📜 SQL Queries
+
+All queries are stored in one file:  
+👉 [View SQL Queries](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/main/Music_Store_Query.sql)
+
+---
+
+## 🧠 Business Questions Answered
+
+### 🔹 Question Set 1 – Easy
+
 1. Who is the senior most employee based on job title?
 2. Which countries have the most invoices?
 3. What are the top 3 values of total invoice?
 4. Which city has the best customers based on total invoice amount?
 5. Who is the best customer based on total spending?
 
-### 🔸 Moderate Level
-1. Rock music listeners: Email, first name, last name, and genre.
-2. Top 10 Rock artists by track count.
-3. Tracks longer than average length.
+---
 
-### 🔺 Advanced Level
+### 🔸 Question Set 2 – Moderate
+
+1. Rock music listeners: email, first name, last name, and genre.
+2. Top 10 rock artists by number of tracks.
+3. Tracks that are longer than the average track length.
+
+---
+
+### 🔺 Question Set 3 – Advanced
+
 1. Amount spent by each customer on each artist.
-2. Most popular music genre per country.
+2. Most popular music genre for each country.
 3. Top-spending customer in each country.
 
 ---
-## 🗺 Database Schema
 
-Here is the database schema used for this analysis:
+## 🛠️ SQL Concepts Used
 
-![Music Store Schema](https://github.com/Aman-Jha07/SQL-Data-Analysis/blob/950c23bb20acde84a76015185aa17b1d39f6006f/MusicDatabaseSchema.png?raw=true)
-
-
-## 🛠️ Tech Stack
-
-- SQL (SQLite/PostgreSQL/MySQL – depends on your environment)
-- Git & GitHub for version control
-- [Optional] DB Browser for SQLite or pgAdmin
+- `JOIN` (INNER, LEFT)
+- `GROUP BY` & `ORDER BY`
+- `LIMIT`, `DISTINCT`, `HAVING`
+- Aggregations: `SUM()`, `AVG()`, `COUNT()`
+- Subqueries & CTEs
+- Ranking & Filtering with `MAX()`, `TOP`, etc.
 
 ---
 
-## 📊 Sample Output
+## 📌 About the Dataset
 
-> You can also include screenshots of query results or charts if applicable.
-
----
-
-## 📌 Notes
-
-- Based on the Chinook music store database schema.
-- Ideal for Data Analyst and SQL practice.
+This dataset is based on the [Chinook Database](https://github.com/lerocha/chinook-database), which simulates a digital music store, containing tables for artists, albums, tracks, invoices, and customers.
 
 ---
 
-## 📧 Contact
+## 🚀 How to Run
 
-If you want to collaborate or have any suggestions, feel free to reach out!
+You can use any SQL environment like:
+
+- **SQLite**
+- **MySQL / PostgreSQL**
+- **DB Browser for SQLite**
+- **Jupyter Notebook + SQLite Magic**
+- **DBeaver / pgAdmin**
+
+---
+
+## 🙌 Acknowledgments
+
+- [Chinook Database](https://github.com/lerocha/chinook-database)
+- SQL practice inspiration from real-world business scenarios
+
+---
+
+## 📫 Connect With Me
+
+Feel free to connect or suggest improvements!
+
+- [LinkedIn](https://www.linkedin.com/in/your-profile)
+- [GitHub](https://github.com/Aman-Jha07)
 
