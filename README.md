@@ -56,4 +56,3 @@ To analyze a music store database and answer business-driven questions related t
 
 ---
 
-## ⭐ Feel free to fork, star, or use this as a reference for your own SQL projects!
