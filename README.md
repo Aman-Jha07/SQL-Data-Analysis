@@ -81,12 +81,3 @@ Load and execute the schema.
 
 Run queries from Music_Store_Query.sql to explore insights.
 
-## 🔗 Connect with Me
-💼 LinkedIn - Aman Kumar Jha
-
-📂 GitHub Repository
-
-
----
-
-Let me know if you'd like to add a **badge**, a **table of contents**, or a **preview GIF/screenshot** to show results!
