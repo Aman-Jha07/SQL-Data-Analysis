@@ -72,12 +72,5 @@ GROUP BY c.CustomerId
 ORDER BY Total_Spent DESC
 LIMIT 1;
 
-## 📌 How to Run
-Clone this repo or download the database files.
 
-Open Music_Store_database.sql in DB Browser for SQLite.
-
-Load and execute the schema.
-
-Run queries from Music_Store_Query.sql to explore insights.
 
