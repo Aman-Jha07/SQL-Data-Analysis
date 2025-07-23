@@ -46,17 +46,9 @@ To analyze a music store database and answer business-driven questions related t
 - What are the top 3 invoice values?
 - Who are the top customers and artists?
 - What is the most popular genre per country?
-
----
----
-## 📊 Sample Business Questions Answered
-
 - Who is the top-spending customer?
-- Which city brings in the most revenue?
-- What are the top 3 invoice values?
 - Who are the top rock music listeners?
-- What genres are most popular in each country?
-
+---
 ## 🧠 Key Learnings
 
 - Writing efficient SQL queries for real-world business use cases
