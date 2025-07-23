@@ -16,6 +16,12 @@ Here is the schema of the Music Store database used in this analysis:
 
 ## 📁 Project Structure
 
+SQL-Data-Analysis/
+│
+├── Music_Store_Query.sql # All SQL queries grouped by difficulty
+├── MusicDatabaseSchema.png # Schema image for quick reference
+└── README.md # Project documentation
+
 
 ---
 
@@ -48,52 +54,27 @@ All queries are stored in one file:
 
 ### 🔺 Question Set 3 – Advanced
 
-1. Amount spent by each customer on each artist.
-2. Most popular music genre for each country.
+1. Amount spent by each customer on different artists.
+2. Most popular genre by country (based on number of purchases).
 3. Top-spending customer in each country.
 
 ---
 
-## 🛠️ SQL Concepts Used
+## 🙋‍♂️ Author
 
-- `JOIN` (INNER, LEFT)
-- `GROUP BY` & `ORDER BY`
-- `LIMIT`, `DISTINCT`, `HAVING`
-- Aggregations: `SUM()`, `AVG()`, `COUNT()`
-- Subqueries & CTEs
-- Ranking & Filtering with `MAX()`, `TOP`, etc.
+**Aman Kumar Jha**  
+📇 [LinkedIn Profile](https://www.linkedin.com/in/amankumarjhame/)
+📇 [GitHub](https://github.com/Aman-Jha07)
+---
+
+## 💡 Tools Used
+
+- PostgreSQL / MySQL
+- SQL Joins, Group By, Subqueries, CTEs
+- Git & GitHub for version control
 
 ---
 
-## 📌 About the Dataset
+## 📌 License
 
-This dataset is based on the [Chinook Database](https://github.com/lerocha/chinook-database), which simulates a digital music store, containing tables for artists, albums, tracks, invoices, and customers.
-
----
-
-## 🚀 How to Run
-
-You can use any SQL environment like:
-
-- **SQLite**
-- **MySQL / PostgreSQL**
-- **DB Browser for SQLite**
-- **Jupyter Notebook + SQLite Magic**
-- **DBeaver / pgAdmin**
-
----
-
-## 🙌 Acknowledgments
-
-- [Chinook Database](https://github.com/lerocha/chinook-database)
-- SQL practice inspiration from real-world business scenarios
-
----
-
-## 📫 Connect With Me
-
-Feel free to connect or suggest improvements!
-
-- [LinkedIn](https://www.linkedin.com/in/your-profile)
-- [GitHub](https://github.com/Aman-Jha07)
-
+This project is for educational purposes only.
